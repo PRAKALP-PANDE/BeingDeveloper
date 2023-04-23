@@ -50,8 +50,8 @@ export default function Portfolio() {
             <div className="portfolio-box">
                 <img src={Experience_img} alt="" />
                 <div className="portfolio-layer">
-                    <h4>Experience</h4>
-                    <p>Proven track record of delivering guranteed results.</p>
+                    <h4>{data.portfolio_5_tag}</h4>
+                    <p>{data.portfolio_5_para}</p>
                     <a href="#"><i className='bx bx-link-external'></i></a>
                 </div>
             </div>
@@ -59,8 +59,8 @@ export default function Portfolio() {
             <div className="portfolio-box">
                 <img src={Competitive_img} alt="" />
                 <div className="portfolio-layer">
-                    <h4>Competitive Pricing</h4>
-                    <p>Offers a good resonable value proposition compared to the competitors..</p>
+                    <h4>{data.portfolio_6_tag}</h4>
+                    <p>{data.portfolio_6_para}</p>
                     <a href="#"><i className='bx bx-link-external'></i></a>
                 </div>
             </div>

@@ -6,6 +6,7 @@ import Careers from './Careers';
 import Services from './Services';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
+import ContactUs from './ContactUs';
 
 export default function Home() {
 
@@ -67,7 +68,7 @@ export default function Home() {
 
             <section className="contact" id="contact">
                 <h2 className="heading">Contact <span>Us!</span></h2>
-                <Contact/>
+                <ContactUs/>
             </section>
             <Footer/>            
         </div>
