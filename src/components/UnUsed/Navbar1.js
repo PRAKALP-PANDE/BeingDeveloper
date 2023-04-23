@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-export default function Navbar() {
+export default function Navbar1() {
     return (
         <div>
             {/*Navigation */}
@@ -14,8 +14,7 @@ export default function Navbar() {
                     <a href="#home" className="active">HOME</a>
                     <a href="#about">ABOUT</a>
                     <a href="#services">SERVICES</a>
-                    <a href="#careers">CAREERS</a>
-                    <a href="#portfolio">PORTFOLIO</a>
+                    <a href="#portfolio">CAREERS</a>
                     <a href="#contact">CONTACT</a>
                 </nav>
             </header>
