@@ -7,6 +7,7 @@ import Services from './Services';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import ContactUs from './ContactUs';
+import Home_gif from './assets/img/Home_gif.gif'
 
 export default function Home() {
 
@@ -30,7 +31,8 @@ export default function Home() {
                     <a href="#services" className="btn">EXPLORE</a>
                 </div>
                 <div className="home-img">
-                    <img src="https://www.lambdatest.com/resources/images/news24.gif" alt="" />
+                    <img src={Home_gif} alt="" />
+                    {/* <img src="https://www.lambdatest.com/resources/images/news24.gif" alt="" /> */}
                 </div>
             </section>
 
@@ -44,7 +46,7 @@ export default function Home() {
                     <h2 className="heading">CREATE CLEVER THINGS <span>WITH US!</span></h2>
                     {/*<h3>Developer</h3> */}
                     <p>{data.About_para1} <br/> {data.About_para2} <br/> {data.About_para3}  </p>
-                    <a href="#" className="btn">OPEN POSITIONS</a>
+                    <a href="https://forms.gle/7jUgc3Zc8HkcWP8y5" target='_blank' className="btn">OPEN POSITIONS</a>
                 </div>
             </section>
 

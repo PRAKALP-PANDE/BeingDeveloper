@@ -66,7 +66,7 @@ export default function App() {
                         name="message"
                         placeholder="Message"
                         cols="30"
-                        rows="6"
+                        rows="10"
                         onChange={handleInputChange}
                         value={message}
                     ></textarea>
