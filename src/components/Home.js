@@ -8,13 +8,16 @@ import Portfolio from './Portfolio';
 import Contact from './Contact';
 import ContactUs from './ContactUs';
 import Home_gif from './assets/img/Home_gif.gif'
+import TopToast from './TopToast';
 
 export default function Home() {
 
     let data = require('./data.json');
     return (
         <div>
-        <Navbar/>
+            <Navbar />
+            {/* floating toast */}
+            <TopToast />
             {/* <!-- Home section design --> */}
             <section className="home" id="home">
                 <div className="home-content">
@@ -45,7 +48,7 @@ export default function Home() {
                 <div className="about-content">
                     <h2 className="heading">CREATE CLEVER THINGS <span>WITH US!</span></h2>
                     {/*<h3>Developer</h3> */}
-                    <p>{data.About_para1} <br/> {data.About_para2} <br/> {data.About_para3}  </p>
+                    <p>{data.About_para1} <br /> {data.About_para2} <br /> {data.About_para3}  </p>
                     <a href="https://forms.gle/7jUgc3Zc8HkcWP8y5" target='_blank' className="btn">OPEN POSITIONS</a>
                 </div>
             </section>
@@ -53,26 +56,26 @@ export default function Home() {
             {/* <!-- service section  --> */}
             <section className="services" id="services">
                 <h2 className="heading">Our <span>Services</span></h2>
-                <Services/>
+                <Services />
             </section>
 
             {/* Timeline */}
-            <section className="careers" id="careers">            
-            <h2 className="heading">Your<span>Journey</span></h2>
-                <Careers/>
+            <section className="careers" id="careers">
+                <h2 className="heading">Roadmap for <span>internship program!!</span></h2>
+                <Careers />
             </section>
 
             {/* <!-- Why Should you Choose Us? section --> */}
             <section className="portfolio" id="portfolio">
                 <h2 className="heading">Why Should you <span>Choose Us?</span></h2>
-                <Portfolio/>
+                <Portfolio />
             </section>
 
             <section className="contact" id="contact">
                 <h2 className="heading">Contact <span>Us!</span></h2>
-                <ContactUs/>
+                <ContactUs />
             </section>
-            <Footer/>            
+            <Footer />
         </div>
     )
 }

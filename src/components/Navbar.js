@@ -14,7 +14,7 @@ export default function Navbar() {
                     <a href="#about">ABOUT</a>
                     <a href="#services">SERVICES</a>
                     <a href="#careers">CAREERS</a>
-                    <a href="#portfolio">PORTFOLIO</a>
+                    <a href="#portfolio">VALUE OFFERING</a>
                     <a href="#contact">CONTACT</a>
                 </nav>
             </header>
