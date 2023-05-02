@@ -8,17 +8,18 @@ export default function App() {
         name: "",
         email: "",
         subject: "",
+        profession: "",
         message: "",
     });
 
-    const { name, email, subject, message } = state;
+    const { name, email, subject, profession, message } = state;
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (!name || !email || !subject || !message) {
+        if (!name || !email || !subject || !profession || !message) {
             toast.error("Please provide value in each input field");
         } else {
             firebaseDB.ref("contacts").push(state);
-            setState({ name: "", email: "", subject: "", message: "" });
+            setState({ name: "", email: "", subject: "", profession: "", message: "" });
             toast.success("Form Submitted Successfully");
         }
     };
@@ -59,6 +60,29 @@ export default function App() {
                         onChange={handleInputChange}
                         value={subject}
                     />
+                </div>
+                <div className="radio">
+                <div className="label">
+                    <h1>Profession</h1>
+                </div>
+                    <div>
+                        <h3>Student</h3>
+                        <input
+                            type="radio"
+                            name="profession"
+                            onChange={handleInputChange}
+                            value="student"
+                        />
+                    </div>
+                    <div>
+                        <h3>Professional</h3>
+                        <input
+                            type="radio"
+                            name="profession"
+                            onChange={handleInputChange}
+                            value="Professional"
+                        />
+                    </div>
                 </div>
                 <div className="input-box">
                     <textarea

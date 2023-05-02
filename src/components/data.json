@@ -25,7 +25,7 @@
     "Services_card_4_para":"Our hosting and security service provides reliable and secure web hosting solutions to keep your website safe from cyber threats and ensure uninterrupted online presence.",
 
     
-    "journey_1_tag":"Step 1",
+    "journey_1_tag":"Step 1: Application process",
     "journey_1_para": "Apply for an internship in your internested domain. Internship duration will be one month. Any branch students as well as senior can apply to internship.",
 
     "journey_2_tag":"Step 2: Get Internship Batch",
@@ -37,36 +37,36 @@
     "journey_4_tag":"Step 4: Verify the project submission",
     "journey_4_para":"We will asssign some projects to you which are benificial to enhance your skills in your intrested domain.",
 
-    "journey_5_tag":"Step 5",
+    "journey_5_tag":"Step 5: Internship certificate",
     "journey_5_para":"After successfully evaluation of projects you will be eligible for internship certificate.",
 
-    "journey_6_tag":"Step 6",
+    "journey_6_tag":"Step 6: Recommendation letter",
     "journey_6_para":"If your are meeting to criteria of project completion then you will get letter of recommendation from BeingDeveloper!!",
 
     
-    "portfolio_1_tag":"Quality",
-    "portfolio_1_para":"We believe that Quality service is essential for building and maintaining customer satisfaction and loyalty.",
-    "portfolio_1_img" : "https://i.ibb.co/PFDSJKb/Quality.jpg",
+    "value_1_tag":"Quality",
+    "value_1_para":"We believe that Quality service is essential for building and maintaining customer satisfaction and loyalty.",
+    "value_1_img" : "https://i.ibb.co/Ph216X5/Quality.jpg",
 
-    "portfolio_2_tag":"Trust",
-    "portfolio_2_para":"Trust is the cornerstone of effective collaboration, enabling team members to rely on one another and work towards shared goals with confidence.",
-    "portfolio_2_img" : "https://i.ibb.co/34mbBjZ/Trust.jpg",
+    "value_2_tag":"Trust",
+    "value_2_para":"Trust is the cornerstone of effective collaboration, enabling team members to rely on one another and work towards shared goals with confidence.",
+    "value_2_img" : "https://i.ibb.co/7gWZnM9/Trust.jpg",
 
-    "portfolio_3_tag":"Innovation",
-    "portfolio_3_para":"Our innovative service is one that provides unique, creative, and valuable solutions to meet the needs and desires of customers.",
-    "portfolio_3_img" : "https://i.ibb.co/jL3q1bp/Innovation.jpg",
+    "value_3_tag":"Innovation",
+    "value_3_para":"Our innovative service is one that provides unique, creative, and valuable solutions to meet the needs and desires of customers.",
+    "value_3_img" : "https://i.ibb.co/0ZdZzfc/Innovation.jpg",
 
-    "portfolio_4_tag":"Experience",
-    "portfolio_4_para":"Understand and meet the needs and expectations of customers by providing personalized, efficient, and memorable interactions.",
-    "portfolio_4_img" : "https://i.ibb.co/bvQ0htn/Experience.jpg",
+    "value_4_tag":"Experience",
+    "value_4_para":"Understand and meet the needs and expectations of customers by providing personalized, efficient, and memorable interactions.",
+    "value_4_img" : "https://i.ibb.co/RDZBzRF/Experience.jpg",
 
-    "portfolio_5_tag":"Competitive pricing",
-    "portfolio_5_para":"Offers affordable and competitive prices while maintaining a high level of quality and customer satisfaction.",
-    "portfolio_5_img" : "https://i.ibb.co/4P6GQcb/Competitive-pricing.jpg",
+    "value_5_tag":"Competitive pricing",
+    "value_5_para":"Offers affordable and competitive prices while maintaining a high level of quality and customer satisfaction.",
+    "value_5_img" : "https://i.ibb.co/tcZF3MS/Competitive-pricing.jpg",
 
-    "portfolio_6_tag":"Customer Service",
-    "portfolio_6_para":"None",
-    "portfolio_6_img" : ""
+    "value_6_tag":"Commitment",
+    "value_6_para":"Our company/community is committed to providing exceptional service by dedicating ourselves fully to meeting the needs and expectations of our customers.",
+    "value_6_img" : "https://i.ibb.co/YN4cnSp/Commitment-JPG.gif"
 }
 
 
